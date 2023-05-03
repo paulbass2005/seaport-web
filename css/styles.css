@@ -11520,12 +11520,12 @@ footer.footer .social-link:hover {
 
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
-.portfolio-item .caption .caption-content p {
+.portfolio-item .caption .caption-content ul li p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 @media (min-width: 992px) {
   .portfolio-item {
