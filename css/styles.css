@@ -11500,7 +11500,9 @@ footer.footer .social-link:hover {
   position: relative;
   overflow: hidden;
   max-width: 530px;
-  margin: auto auto 1rem;
+  margin: auto auto .25rem;
+  max-height: 530px;
+ 
 }
 .portfolio-item .caption {
   display: flex;
@@ -11511,12 +11513,15 @@ footer.footer .social-link:hover {
   top: 0;
   bottom: 0;
   z-index: 1;
+  overflow-x: auto;
+  
 }
 .portfolio-item .caption .caption-content {
   color: #fff;
   justify-self:center;
   align-content: center;
-  margin: 3rem  ;
+  margin: 2rem  ;
+
 
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
@@ -11553,13 +11558,13 @@ footer.footer .social-link:hover {
             clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+            clip-path: inset(1rem);
   }
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+            clip-path: inset(1rem);
   }
 }
 
